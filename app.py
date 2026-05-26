@@ -6,7 +6,7 @@ app = FastAPI(title="FastAPI S3 Upload")
 
 s3 = boto3.client("s3")
 
-BUCKET_NAME = "mi-bucket-fastapi-final"
+BUCKET_NAME = "fastapi-final-anabe"
 
 ALLOWED_TYPES = ["image/png", "image/jpeg"]
 
